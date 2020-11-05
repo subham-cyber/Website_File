@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif, 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+
+.header, .contact, .action {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact {
+    margin: 0px 50px;
+    padding: 0px 20px;
+}
+
+.action {
+    margin: 0px 50px;
+    padding: 0px 20px;
+}
+
+.st {
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: black;
+}
+
+h2 {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+}
+
+.hero1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.searchBox img {
+    cursor: pointer;
+}
+/* p {
+    padding: 10px 100px 0px 0px;
+    font-size: 1.1rem;
+    text-align: right;
+} */
+input {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0px 5px; 
+}
+.searchBox {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px 5px;
+}
+
+.h1, .h2{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px 20px;
+}
+.h2 {
+     color: olive ;
+}
+.text { 
+    display: block;
+} 
+.text1 {
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.hero2  {
+    display: flex;
+    justify-content: space-between;
+}
