@@ -4,7 +4,9 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif, 'Times New Roman', Times, serif;
+    background-image: url("vcsd.png");
 }
+/* Styling the Header  */
 .header{
     display: flex;
     flex-flow: row;
@@ -32,7 +34,7 @@ body{
     font-weight: 700;
     cursor: pointer;
 }
-
+/* Styling the Navigation Menus */
 .nav {
     display: flex;
     justify-content: space-evenly;
@@ -58,15 +60,11 @@ h2 {
 .searchBox img {
     cursor: pointer;
 }
-/* p {
-    padding: 10px 100px 0px 0px;
-    font-size: 1.1rem;
-    text-align: right;
-} */
 input {
     border-radius: 10px;
     padding: 15px;
     margin: 0px 5px; 
+    outline: none;
 }
 .searchBox {
     display: flex;
@@ -75,7 +73,7 @@ input {
     height: 30px;
     padding: 10px 5px;
 }
-
+/* The Hero Section Styled  */
 .h1, .h2{
     font-size: 40px;
     font-weight: 800;
@@ -86,7 +84,53 @@ input {
 }
 .text { 
     display: block;
+    position: relative;
 } 
+.text .h1 {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    -ms-transform: translate(40%, 10%);
+    transform: translate(40%, 10%);
+}
+
+.text .h2 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    -ms-transform: translate(30%, 10%);
+    transform: translate(30%, 10%);
+}
+.text .text1 {
+    margin: 0;
+    position: relative;
+    top: 45%;
+    left: 10%;
+    -ms-transform: translate(10%, 10%);
+    transform: translate(10%, 10%);
+}
+.text .button {
+    margin: 0;
+    position: relative;
+    top: 55%;
+    left: 15%;
+    -ms-transform: translate(40%, 10%);
+    transform: translate(40%, 10%);
+}
+.button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 3px solid rgb(241, 241, 130);
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button:active {
+    background-color: rgb(250, 250, 179);
+}
 .text1 {
     padding: 0px 20px;
     font-size: 20px;
